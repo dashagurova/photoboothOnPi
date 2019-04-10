@@ -1,0 +1,9 @@
+[Unit]
+Description=Drumminhands Photobooth
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Documents/drumminhands_photobooth/drumminhands_photobooth.py
+
+[Install]
+WantedBy=multi-user.target
